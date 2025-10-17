@@ -1,0 +1,67 @@
+/* Basic reset and layout */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c2e9fb, #a1c4fd);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Center container */
+.container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Input styling */
+input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #0077ff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 5px;
+    transition: 0.3s ease;
+}
+
+#save-btn {
+    background-color: #0077ff;
+    color: white;
+}
+
+#save-btn:hover {
+    background-color: #005ecc;
+}
+
+#clear-btn {
+    background-color: #e63946;
+    color: white;
+}
+
+#clear-btn:hover {
+    background-color: #c9182b;
+}
+
+/* Displayed name */
+#display-name {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
